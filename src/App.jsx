@@ -7,8 +7,7 @@ export function App () {
 
   const scrollToSection = (data) => {
     if (data === 'contact') {
-      console.log('holi')
-      contact.current.scrollIntoView()
+      contact.current.scrollIntoView({ behavior: 'smooth' })
     }
   }
 
