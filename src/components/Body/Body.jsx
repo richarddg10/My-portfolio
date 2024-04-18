@@ -12,9 +12,9 @@ export function Body (props) {
 
   const scrollToSection = (data) => {
     if (data === 'nowMe') {
-      nowMe.current.scrollIntoView()
+      nowMe.current.scrollIntoView({ behavior: 'smooth' })
     } else if (data === 'project') {
-      projects.current.scrollIntoView()
+      projects.current.scrollIntoView({ behavior: 'smooth' })
     } else {
       props.onSendMessage(data)
     }
