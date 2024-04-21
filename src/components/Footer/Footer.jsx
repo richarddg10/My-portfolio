@@ -40,11 +40,11 @@ export function Footer (props) {
             </div>
             <div className='CVspanishDiv'>
               <img src={CVspanishIcon} />
-              <a href='https://drive.google.com/file/d/1i1q3XFlhWT099X-Zz4G-nu6O-v7qEpRz/view?usp=sharing' target='_blank' rel='noreferrer'>See CV (in spanish)</a>
+              <a href='https://drive.google.com/file/d/1IcEDTXT2Ur-MGyt5mCLpGXh6vy4dDsZn/view?usp=sharing' target='_blank' rel='noreferrer'>See CV (in spanish)</a>
             </div>
             <div className='CVenglishDiv'>
               <img src={CVenglishIcon} />
-              <a href='https://drive.google.com/file/d/1VkNy8-asEt290dXI_BszYOOKcFn88YpY/view?usp=sharing' target='_blank' rel='noreferrer'>See CV (in english)</a>
+              <a href='https://drive.google.com/file/d/1zMp13yrduV-RKC1dvD58_GXcyU5m8LEp/view?usp=sharing' target='_blank' rel='noreferrer'>See CV (in english)</a>
             </div>
           </div>
           <img className='myContactEmoji' src={myContactEmoji} />
