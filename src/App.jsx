@@ -13,7 +13,10 @@ export function App () {
 
   return (
     <>
-      <img src='./warning-updating.jpg' style={{ width: '100%', height: '100%' }} />
+      <div>
+        <iframe src='./warning-updating.pdf' style={{ width: '100%', height: '100vh' }} title='PDF Viewer'></iframe>
+      </div>
+{/*       <img src='./warning-updating.jpg' style={{ width: '100%', height: '100%' }} /> */}
 {/*       <Body onSendMessage={scrollToSection} />
       <Footer reference={contact} /> */}
     </>
