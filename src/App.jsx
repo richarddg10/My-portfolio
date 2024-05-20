@@ -21,6 +21,7 @@ export function App () {
           <Viewer fileUrl='./warning-updating.pdf' />
         </Worker>
       </div>
+      
 {/*       <div>
         <iframe src='./warning-updating.pdf' style={{ width: '100%', height: '100vh' }} title='PDF Viewer'></iframe>
       </div> */}
