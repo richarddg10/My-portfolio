@@ -13,7 +13,7 @@ export function App () {
 
   return (
     <>
-      <img src='./warning-updating.jpg' />
+      <img src='./warning-updating.jpg' style={{ width: '100%', height: '100%' }} />
 {/*       <Body onSendMessage={scrollToSection} />
       <Footer reference={contact} /> */}
     </>
