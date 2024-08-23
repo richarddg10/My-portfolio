@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="refresh" content="0; url=/My-portfolio/" />
+        <script type="text/javascript">
+            var path = window.location.pathname;
+            // Evita agregar /My-portfolio dos veces
+            if (!path.startsWith('/My-portfolio')) {
+                window.location.replace("/My-portfolio" + path);
+            } else {
+                window.location.replace(path);
+            }
+        </script>
+        <title>Redirecting richi portfolio...</title>
+    </head>
+    <body>
+    </body>
+</html>
