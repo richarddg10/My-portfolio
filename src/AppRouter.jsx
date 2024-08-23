@@ -6,7 +6,7 @@ export function AppRouter() {
     return(
         <div>
             <Routes>
-                <Route index element={<CoverPage />} />
+                <Route path="/My-portfolio" element={<CoverPage />} />
                 <Route path="/now-me" element={<NowMePage />}/>
                 <Route path="/my-work" element={<MyWorkPage />}/>
                 <Route path="/contact-me" element={<ContactMePage />}/>
