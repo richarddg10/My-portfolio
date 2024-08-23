@@ -12,7 +12,7 @@ export function LogosHeader() {
         <section className="logos-section flex flex-row justify-between pt-[2.7%] sm:pt-[1.3%]">
             <div>
                 <img className="richi-white-logo h-[6vw] md:h-[2.45vw] cursor-pointer"
-                    onClick={() => navigate('/My-portfolio')}
+                    onClick={() => navigate('/')}
                     src={richiWhiteLogo}
                     alt="richi-logo"
                 />
