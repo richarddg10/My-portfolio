@@ -1,0 +1,65 @@
+.logos-container {
+    position: absolute;
+    z-index: 3;
+    width: 105%;
+    height: 105%;
+    animation: container_rotation 60s linear infinite;
+}
+
+.logos-container a {
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    transform-origin: center center;
+    animation: img_rotation 60s linear infinite;
+}
+
+.logos-container a:nth-child(1) {
+    top: 5%;
+    left: 70.5%;
+}
+
+.logos-container a:nth-child(2) {
+    top: 45%;
+    right: -1.5%;
+}
+
+.logos-container a:nth-child(3) {
+    bottom: 5%;
+    left: 70.5%;
+}
+
+.logos-container a:nth-child(4) {
+    bottom: 5%;
+    left: 22%;
+}
+
+.logos-container a:nth-child(5) {
+    top: 45%;
+    left: -1.5%;
+}
+
+.logos-container a:nth-child(6) {
+    top: 5%;
+    left: 22%;
+}
+
+@keyframes container_rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes img_rotation {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.logos-container a img {
+    border-radius: 8px;
+}
+.logos-container a img:hover {
+    box-shadow: 0 0 10px 0px #2ADE71;
+    transform: scale(1.2);
+}
