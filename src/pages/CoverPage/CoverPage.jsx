@@ -15,7 +15,7 @@ export function CoverPage() {
                 <div className="call-action-container inline-flex px-[40px] py-[10%] sm:px-[115px] sm:py-[7%] bg-black rounded-[4%]">
                     <button
                         className="call-action-btn relative px-[17.3vw] sm:px-[47px] py-[6%] bg-black text-[1.4rem] sm:text-[1.5rem] text-primary-green border-[0.4vw] sm:border-[0.13vw] border-primary-green rounded-[100px]"
-                        onClick={() => navigate('/now-me')}
+                        onClick={() => navigate('/My-portfolio/now-me')}
                     >
                         Now me
                     </button>
