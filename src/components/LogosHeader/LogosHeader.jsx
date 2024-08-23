@@ -19,7 +19,7 @@ export function LogosHeader() {
                     <img className="linkedin-logo h-[6vw] md:h-[2.45vw]" src="/linkedin-logo.svg" alt="linkedin-logo" />
                 </a>
                 <a className="hidden sm:block" href="https://www.behance.net/richarddelgado1" target="_blank" rel="noopener noreferrer">
-                    <img className="behance-logo h-[6vw] md:h-[2.45vw]" src="/behance-logo.svg" alt="behance-logo" />
+                    <img className="behance-logo h-[6vw] md:h-[2.45vw]" src={`${process.env.PUBLIC_URL}/behance-logo.svg`} alt="behance-logo" />
                 </a>
             </div>
         </section>
