@@ -1,5 +1,0 @@
-export * from './Header/Header'
-export * from './Body/Body'
-export * from './MyProjectsMain/MyProjectsMain'
-export * from './Projects/Projects'
-export * from './Footer/Footer'
