@@ -27,10 +27,10 @@ export function ContactMePage() {
                         <a href="https://github.com/richarddg10" target="_blank" rel="noopener noreferrer">
                             <img src={githubLogo} alt="github icon" />
                         </a>
-                        <a href="https://drive.google.com/file/d/19hYy_rfO7KTwJfbZtiEbiTLizrMf6hye/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/14wCSyQWB0X_RICYPV3bxNUSVpyn86yv1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <img src={spanishCvLogo} alt="spanish cv icon" />
                         </a>
-                        <a href="https://drive.google.com/file/d/1YZwKjNgIGCuQnRCvxhnSUtuARvv7BZvx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1fpbsQTUPDnlKcG8ET-9Oupbnzw95ELoQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <img src={englishCvLogo} alt="english cv icon" />
                         </a>
                     </div>
