@@ -9,7 +9,7 @@ export function LogosHeader() {
     const navigate = useNavigate()
 
     return (
-        <section className="logos-section flex flex-row justify-between pt-[3.6%] sm:pt-[1.3%]">
+        <section className="logos-section flex flex-row justify-between pt-[3.4%] sm:pt-[1.3%]">
             <div>
                 <img className="richi-white-logo h-[7vw] md:h-[2.45vw] cursor-pointer"
                     onClick={() => navigate('/My-portfolio')}
