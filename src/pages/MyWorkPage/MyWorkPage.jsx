@@ -8,7 +8,7 @@ export function MyWorkPage() {
             <LogosHeader />
             <section className="flex flex-col items-center mt-[7%] md:mt-[5%] pb-[9%] md:pb-[3%]">
                 <h2 className="my-work-title text-[26px] sm:text-[30px] text-white font-black mt-[0px] mb-[4.2%]">My work</h2>
-                <div className="flex flex-col gap-[7vw] px-[1%] sm:px-[10%]">
+                <div className="flex flex-col gap-[7vw] px-[0%] sm:px-[10%]">
                     {projectsData.map((props) => (
                         <ProjectContainer
                             key={props.id}
