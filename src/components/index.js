@@ -1,0 +1,6 @@
+export * from './LogosHeader/LogosHeader'
+export * from './NavBar/NavBar'
+export * from './PopUp/PopUp'
+export * from './SkillContainer/SkillContainer.jsx'
+export * from './ProjectContainer/ProjectContainer'
+export * from './WaveFooter/WaveFooter'
