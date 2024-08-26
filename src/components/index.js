@@ -1,5 +1,0 @@
-export * from './NavBar/NavBar'
-export * from './SkillContainer/SkillContainer.jsx'
-export * from './LogosHeader/LogosHeader'
-export * from './ProjectContainer/ProjectContainer'
-export * from './WaveFooter/WaveFooter'
