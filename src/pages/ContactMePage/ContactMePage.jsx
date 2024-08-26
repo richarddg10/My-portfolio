@@ -13,7 +13,7 @@ export function ContactMePage() {
     return (
         <main className="contact-me-bg flex flex-col items-center">
             <section className="flex flex-col md:flex-row items-center justify-center pt-[29%] md:pt-[9.3%] pb-[25%] md:pb-[4.8%] gap-[13vw] md:gap-[8%]">
-                <div className="relative flex justify-center items-center w-[70%] md:w-[34.5%]">
+                <div className="relative flex justify-center items-center w-[75%] md:w-[34.5%]">
                     <div className="logos-container">
                         <a href="mailto:richardelgado145@gmail.com" target="_blank">
                             <img src={emailLogo} alt="email icon" />
