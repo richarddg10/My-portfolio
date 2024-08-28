@@ -5,7 +5,7 @@ export function PopUp() {
         <div className="absolute bottom-[50%] z-1 flex flex-col px-[19%] sm:px-[21%] pt-[12%] pb-[32%] gap-[3vw] sm:gap-[0.6vw] rounded-[1vw] sm:rounded-[0.5vw] bg-fifth-gray">
             <button 
                 className="text-[1rem] sm:text-[1.05rem] hover:text-white"
-                onClick={() => window.open('https://drive.google.com/file/d/16cIi7a4APQumZtULnLznOOt-R5CLf4Lh/view?usp=sharing', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1rHNrbSXDzvSOxrkDavjvgVVaFBl2ebd8/view?usp=sharing', '_blank')}
             >
                 Spanish CV
             </button>
