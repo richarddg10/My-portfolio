@@ -27,7 +27,7 @@ export function ContactMePage() {
                         <a href="https://github.com/richarddg10" target="_blank" rel="noopener noreferrer">
                             <img src={githubLogo} alt="github icon" />
                         </a>
-                        <a href="https://drive.google.com/file/d/16cIi7a4APQumZtULnLznOOt-R5CLf4Lh/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1rHNrbSXDzvSOxrkDavjvgVVaFBl2ebd8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <img src={spanishCvLogo} alt="spanish cv icon" />
                         </a>
                         <a href="https://drive.google.com/file/d/14pwFJ_HDG6f8CxuLl8DFJS5MjTx-Mtg9/view?usp=sharing" target="_blank" rel="noopener noreferrer">
